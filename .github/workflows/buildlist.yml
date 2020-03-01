@@ -1,7 +1,7 @@
 name: Build Block List
-on:
+on: 
   schedule:
-  - cron: "0 2 * * 1-5"
+    - cron:  '*/1 * * * *'
     
 jobs:
   build:
