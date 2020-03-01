@@ -10,7 +10,7 @@ You can simple add the following url to your adguard filter list to get an exten
 
 `https://raw.githubusercontent.com/smashah/smashblock/master/blocklist.txt`
 
-or if you want one with 0.0.0.0 redirects:
+or if you want one with 127.0.0.1 redirects:
 
 `https://raw.githubusercontent.com/smashah/smashblock/master/blocklist-r.txt`
 
