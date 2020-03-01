@@ -2,7 +2,7 @@ name: Make Blocklist
 
 on: 
   schedule:
-    - cron:  '*/5 * * * *'
+    - cron:  '0 4 * * 1'
 
 jobs:
   build:
