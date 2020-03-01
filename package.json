@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "blocklist":"npx hblock -O blocklist.txt -T '||\\1^' -H ./hf.txt -F ./hf.txt",
-    "blocklist-hosts":"npx hblock -O blocklist.txt -H ./hf.txt -F ./hf.txt",
+    "blocklist":"npm run blocklist-noredir && blocklist-redir",
+    "blocklist-noredir":"npx hblock -O blocklist.txt -T '||\\1^' -H ./hf.txt -F ./hf.txt",
+    "blocklist-redir":"npx hblock -O blocklist.txt -H ./hf.txt -F ./hf.txt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SMASHAH <shah@idk.uno> (smashah.dev)",
