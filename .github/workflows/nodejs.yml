@@ -1,6 +1,8 @@
-name: Node.js CI
+name: Make Blocklist
 
-on: [push]
+on: 
+  schedule:
+    - cron:  '*/1 * * * *'
 
 jobs:
   build:
