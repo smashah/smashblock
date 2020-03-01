@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "blocklist":"npm run blocklist-noredir && blocklist-redir",
+    "blocklist":"npm run blocklist-noredir && npm run blocklist-redir",
     "blocklist-noredir":"npx hblock -O blocklist.txt -T '||\\1^' -H ./hf.txt -F ./hf.txt",
     "blocklist-redir":"npx hblock -O blocklist-r.txt -H ./hf.txt -F ./hf.txt",
     "test": "echo \"Error: no test specified\" && exit 1"
