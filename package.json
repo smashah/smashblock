@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "blocklist":"npm run blocklist-noredir && npm run blocklist-redir",
-    "blocklist-noredir":"npx hblock -O blocklist.txt -T '||\\%D^' -H ./hf.txt -F ./hf.txt",
-    "blocklist-redir":"npx hblock -O blocklist-r.txt  -R '127.0.0.1' -H ./hf.txt -F ./hf.txt",
+    "blocklist": "npm run q && npm run b && npm run d && npm run dr && npm run c",
+    "b":"npx hblock -O x.txt  -R '127.0.0.1'  -T '%R ||\\%D^' -H ./hf.txt -F ./q.txt",
+    "d": "npx neek -i x.txt -o blocklist-r.txt",
+    "dr": "cat blocklist-r.txt | sed 's/127.0.0.1 ||/||/g' > blocklist.txt",
+    "q": "curl -s https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/raw/master/For%20hosts%20file/The_Quantum_Ad-List.txt | sed 's/0.0.0.0 /127.0.0.1 ||/g;/^$/d;s/$/^/' > q.txt",
+    "c": "rm q.txt x.txt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SMASHAH <shah@idk.uno> (smashah.dev)",
