@@ -8,7 +8,7 @@ This repo is a simple wrapping of [hectorm/hblock](https://github.com/hectorm/hb
 
 Now the blocklist also includes [The Quantum Ad-List](https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list/-/tree/master) and removes any duplicates.
 
-You can simple add the following url to your adguard filter list to get an extended filter list.
+Simply add the following url to your adguard filter list:
 
 `https://raw.githubusercontent.com/smashah/smashblock/master/blocklist.txt`
 
