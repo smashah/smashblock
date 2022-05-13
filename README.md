@@ -20,7 +20,7 @@ or if you want one with 127.0.0.1 redirects:
 
 This block list is designed to be overly protective. This means that sometimes a legitimate site ends up on the list. If you've identified a site that's not meant to be on the blocklist then please submit a PR with a change to [false-positives.txt](https://github.com/smashah/smashblock/blob/master/false-positives.txt)
 
-Make sure to attach a urlscan.io report to your PR also e.g: (urlscan result for openwa.dev)[https://urlscan.io/result/931a5dc0-74ec-49ff-a7c4-18df1c4957bd]
+Make sure to attach a urlscan.io report to your PR also e.g: [urlscan result for openwa.dev](https://urlscan.io/result/931a5dc0-74ec-49ff-a7c4-18df1c4957bd)
 
 Keep the commit formatting the same as the rest of the commits on this file:
 
