@@ -3,3 +3,4 @@
 .smashah.dev
 .behance.net
 .thebeaverton.com
+.bitcanna.io
