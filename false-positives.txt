@@ -5,3 +5,4 @@
 .thebeaverton.com
 .bitcanna.io
 .openwall.com
+.uptimerobot.com
