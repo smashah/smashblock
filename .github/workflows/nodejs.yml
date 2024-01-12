@@ -23,6 +23,7 @@ jobs:
     - run: npm run blocklist
     - name: Commit new blocklist
       run: |
+        git lfs migrate import --include="*.txt"
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit --allow-empty -m "Updated blocklist" -a
